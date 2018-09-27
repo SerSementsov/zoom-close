@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "Zoom Closer",
-  "description": "This extension automatically closes the launced window from Zoom meetings.",
+  "name": "GD Zoom Closer",
+  "description": "This extension automatically closes the launched window from Zoom meetings.",
   "version": "1.4",
 
   "icons": {
@@ -20,8 +20,8 @@
   "content_scripts": [
     {
       "matches": [
-        "https://zoom.us/postattendee",
-        "https://zoom.us/j/*"
+        "https://*.zoom.us/s/*",
+        "https://*.zoom.us/j/*"
       ],
       "js": [
         "content.js"
