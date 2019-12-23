@@ -21,7 +21,8 @@
     {
       "matches": [
         "https://*.zoom.us/s/*",
-        "https://*.zoom.us/j/*"
+        "https://*.zoom.us/j/*",
+        "https://viber.com/*",
       ],
       "js": [
         "content.js"
